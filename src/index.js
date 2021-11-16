@@ -5,6 +5,7 @@ import './styles.css'
  
 
 
+console.log(process.env.REACT_APP_API_URL)
 ReactDOM.render(
   <CalendarApp/>,
   document.getElementById('root')

@@ -29,7 +29,7 @@ export const calendarReducer = (state=initialState,action)=>
                     action.payload
                 ]
             }
-            break;
+ 
         case types.eventSetActive:      
             return { 
                 ...state,
